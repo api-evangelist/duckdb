@@ -1,23 +1,64 @@
 aid: duckdb
 url: https://raw.githubusercontent.com/api-evangelist/duckdb/refs/heads/main/apis.yml
 name: DuckDB
-x-type: company
+x-type: opensource
 description: >-
-  DuckDB is an in-process analytical (OLAP) database — SQLite for analytics. Open source, embedded in Python, R, Node, and many other runtimes; used widely in data engineering.
+  DuckDB is an in-process, MIT-licensed analytical SQL database with no external
+  dependencies. It runs as a library embedded in the host application (CLI, Python,
+  Node.js, R, Java/JDBC, Go, Wasm, etc.) and does not expose a network REST API.
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-  - Data
+  - Database
   - Analytics
-  - SQL
+  - OLAP
   - Embedded
   - Open Source
 created: '2026-05-08'
 modified: '2026-05-08'
 specificationVersion: '0.19'
-apis: []
+apis:
+  - aid: duckdb:duckdb-library
+    name: DuckDB In-Process Library
+    humanURL: https://duckdb.org/docs/
+    baseURL: in-process (no network endpoint)
+    tags:
+      - Embedded
+      - SQL
+      - Library
+      - Wasm
+    description: >-
+      DuckDB ships as a library with first-class bindings for Python, R, Java (JDBC),
+      Node.js, C/C++, Go, Rust, Swift, Julia, and the browser via DuckDB-Wasm. There is
+      no network REST API; clients call DuckDB in-process. Extensions like httpfs allow
+      DuckDB itself to act as an HTTP/S3 client.
+    properties:
+      - type: Documentation
+        url: https://duckdb.org/docs/
+      - type: SourceCode
+        url: https://github.com/duckdb/duckdb
+      - type: License
+        url: https://github.com/duckdb/duckdb/blob/main/LICENSE
+      - type: SDK
+        title: Python
+        url: https://duckdb.org/docs/api/python/overview
+      - type: SDK
+        title: Node.js
+        url: https://duckdb.org/docs/api/nodejs/overview
+      - type: SDK
+        title: Wasm
+        url: https://duckdb.org/docs/api/wasm/overview
 common:
   - type: Website
     url: https://duckdb.org/
+  - type: Portal
+    url: https://duckdb.org/docs/
+  - type: SourceCode
+    url: https://github.com/duckdb/duckdb
+  - type: Foundation
+    url: https://duckdb.org/foundation/
+  - type: CommercialOffering
+    title: MotherDuck (cloud DuckDB)
+    url: https://motherduck.com/
   - type: Plans
     url: plans/duckdb-plans-pricing.yml
   - type: RateLimits
