@@ -1,0 +1,29 @@
+aid: duckdb
+url: https://raw.githubusercontent.com/api-evangelist/duckdb/refs/heads/main/apis.yml
+name: DuckDB
+x-type: company
+description: >-
+  DuckDB is an in-process analytical (OLAP) database — SQLite for analytics. Open source, embedded in Python, R, Node, and many other runtimes; used widely in data engineering.
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Data
+  - Analytics
+  - SQL
+  - Embedded
+  - Open Source
+created: '2026-05-08'
+modified: '2026-05-08'
+specificationVersion: '0.19'
+apis: []
+common:
+  - type: Website
+    url: https://duckdb.org/
+  - type: Plans
+    url: plans/duckdb-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/duckdb-rate-limits.yml
+  - type: FinOps
+    url: finops/duckdb-finops.yml
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
