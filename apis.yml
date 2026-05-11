@@ -65,6 +65,10 @@ common:
     url: rate-limits/duckdb-rate-limits.yml
   - type: FinOps
     url: finops/duckdb-finops.yml
+  - type: Integrations
+    url: https://duckdb.org/ecosystem/
+integrations:
+  - name: DuckDB Logo for Download
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
