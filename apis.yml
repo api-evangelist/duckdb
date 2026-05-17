@@ -1,7 +1,7 @@
 aid: duckdb
 url: https://raw.githubusercontent.com/api-evangelist/duckdb/refs/heads/main/apis.yml
 name: DuckDB
-x-type: opensource
+kind: opensource
 description: >-
   DuckDB is an in-process, MIT-licensed analytical SQL database with no external
   dependencies. It runs as a library embedded in the host application (CLI, Python,
