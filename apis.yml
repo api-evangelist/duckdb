@@ -48,6 +48,8 @@ apis:
         title: Wasm
         url: https://duckdb.org/docs/api/wasm/overview
 common:
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/duckdb
   - type: Website
     url: https://duckdb.org/
   - type: Portal
