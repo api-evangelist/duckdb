@@ -69,6 +69,8 @@ common:
     url: finops/duckdb-finops.yml
   - type: Integrations
     url: https://duckdb.org/ecosystem/
+  - type: LLMsTxt
+    url: https://duckdb.org/llms.txt
 integrations:
   - name: DuckDB Logo for Download
 maintainers:
