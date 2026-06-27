@@ -38,13 +38,13 @@ apis:
         url: https://github.com/duckdb/duckdb
       - type: License
         url: https://github.com/duckdb/duckdb/blob/main/LICENSE
-      - type: SDK
+      - type: SDKs
         title: Python
         url: https://duckdb.org/docs/api/python/overview
-      - type: SDK
+      - type: SDKs
         title: Node.js
         url: https://duckdb.org/docs/api/nodejs/overview
-      - type: SDK
+      - type: SDKs
         title: Wasm
         url: https://duckdb.org/docs/api/wasm/overview
 common:
@@ -69,7 +69,7 @@ common:
     url: finops/duckdb-finops.yml
   - type: Integrations
     url: https://duckdb.org/ecosystem/
-  - type: LLMsTxt
+  - type: LlmsText
     url: https://duckdb.org/llms.txt
 integrations:
   - name: DuckDB Logo for Download
