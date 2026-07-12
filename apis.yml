@@ -48,6 +48,8 @@ apis:
         title: Wasm
         url: https://duckdb.org/docs/api/wasm/overview
 common:
+  - type: DomainSecurity
+    url: security/duckdb-domain-security.yml
   - type: LinkedIn
     url: https://www.linkedin.com/company/duckdb
   - type: Website
@@ -67,6 +69,8 @@ common:
     url: rate-limits/duckdb-rate-limits.yml
   - type: FinOps
     url: finops/duckdb-finops.yml
+  - type: Blog
+    url: https://duckdb.org/feed.xml
   - type: Integrations
     url: https://duckdb.org/ecosystem/
   - type: LlmsText
