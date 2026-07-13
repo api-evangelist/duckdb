@@ -1,0 +1,13 @@
+{
+  "repo": "duckdb",
+  "feeds": [
+    {
+      "source": "https://duckdb.org/feed.xml",
+      "feed_url": "https://duckdb.org/feed.xml",
+      "title": "DuckDB Blog",
+      "saved": 0
+    }
+  ],
+  "fetched": "2026-07-11T11:43:46Z",
+  "post_count": 10
+}
