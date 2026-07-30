@@ -6,7 +6,19 @@ description: >-
   DuckDB is an in-process, MIT-licensed analytical SQL database with no external
   dependencies. It runs as a library embedded in the host application (CLI, Python,
   Node.js, R, Java/JDBC, Go, Wasm, etc.) and does not expose a network REST API.
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+accessModel:
+  pricing: freemium
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Freemium
+  confidence: medium
+  source:
+  - plans
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/duckdb.png
 tags:
   - Database
   - Analytics
