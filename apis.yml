@@ -60,6 +60,16 @@ apis:
         title: Wasm
         url: https://duckdb.org/docs/api/wasm/overview
 common:
+  - type: IssueTracker
+    url: https://github.com/duckdb/duckdb/issues
+  - type: Releases
+    url: https://github.com/duckdb/duckdb/releases
+  - type: SecurityPolicy
+    url: https://github.com/duckdb/duckdb/blob/main/SECURITY.md
+  - type: CodeOfConduct
+    url: https://github.com/duckdb/duckdb/blob/main/CODE_OF_CONDUCT.md
+  - type: ContributionGuide
+    url: https://github.com/duckdb/duckdb/blob/main/CONTRIBUTING.md
   - type: DomainSecurity
     url: security/duckdb-domain-security.yml
   - type: LinkedIn
