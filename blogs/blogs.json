@@ -5,12 +5,12 @@
       "source": "https://duckdb.org/feed.xml",
       "feed_url": "https://duckdb.org/feed.xml",
       "title": "DuckDB Blog",
-      "saved": 1,
+      "saved": 0,
       "nature": "undetermined",
       "nature_basis": null
     }
   ],
-  "fetched": "2026-09-06T18:58:10Z",
+  "fetched": "2026-09-13T12:41:53Z",
   "post_count": 21,
   "feed_nature": "undetermined",
   "feed_nature_basis": null,
