@@ -7,16 +7,21 @@ description: >-
   dependencies. It runs as a library embedded in the host application (CLI, Python,
   Node.js, R, Java/JDBC, Go, Wasm, etc.) and does not expose a network REST API.
 deliveryModel:
-  model: unknown
-  open_source: unknown
+  model: open-core
+  license: MIT
+  license_evidence:
+    repo: duckdb/duckdb
+    spdx: MIT
+    stars: 41701
+  open_source: true
   commercial: true
   callable_host: false
-  label: Delivery model not determined — needs a product licence on record
-  confidence: low
+  label: Open core · an OSS project plus a commercial hosted product
+  confidence: medium
   source:
   - pricing
-  - repository-unlicensed
-  generated: '2026-08-28'
+  - repository-license
+  generated: '2026-09-25'
   method: derived
 accessModel:
   pricing: freemium
@@ -36,13 +41,14 @@ tags:
   - Analytics
   - OLAP
   - Embedded
-  - Open-Source
+  - Open Source
 tags_raw:
   - Database
   - Analytics
   - OLAP
   - Embedded
   - Open Source
+  - Open-Source
 created: '2026-05-08'
 modified: '2026-05-08'
 specificationVersion: '0.23'
