@@ -50,7 +50,7 @@ tags_raw:
   - Open Source
   - Open-Source
 created: '2026-05-08'
-modified: '2026-05-08'
+modified: '2026-10-06'
 specificationVersion: '0.23'
 apis:
   - aid: duckdb:duckdb-library
@@ -84,6 +84,8 @@ apis:
         title: Wasm
         url: https://duckdb.org/docs/api/wasm/overview
 common:
+  - url: https://duckdb.org/news/
+    type: Blog
   - type: IssueTracker
     url: https://github.com/duckdb/duckdb/issues
   - type: Releases
