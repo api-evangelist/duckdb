@@ -42,7 +42,7 @@
     - beta
     in_cloud: true
     builder: unknown (community connector; contributor not in the record)
-  status: pending-partner-spec
+  status: not-a-workflow
   arazzo: null
 - slug: duckdb-meltano
   label: Meltano
@@ -71,5 +71,5 @@
     quality:
     - gold
     builder: 'community (Meltano Hub variant maintainers: meltanolabs)'
-  status: pending-partner-spec
+  status: not-a-workflow
   arazzo: null
